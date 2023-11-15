@@ -1,0 +1,80 @@
+/*intestazione*/
+
+body {
+    background-image: url(background.jpg);
+    margin: auto;
+    width: 1000px;
+    height: 800px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+header{
+    color: lime;
+    text-align: center;
+}
+
+.logo {
+    width: 200px
+}
+
+
+.menu {
+    text-align: center;
+    padding: 7px;
+    background-color: lime;
+}
+/*costrutto sfondo e corpo*/
+
+.corpo {
+    width: 900px;
+    height:700px;
+    padding:80px;
+    padding-bottom: 25px;
+    color: white;
+    background-color: rgba( 0, 0, 0, 0.7);
+    border-radius: 5px;
+    text-align: left;
+    line-height: 1.5px;
+
+    
+}
+
+/*monopattini*/
+
+p{
+    font-size: 13px;
+}
+
+.ginobatt{
+    background-color: orange;
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    filter: brightness(85%);
+  
+}
+
+h2{
+    display: inline-block;
+}
+
+.mikebatt{
+    background-color: lime;
+    width: 500px;
+    height: 30px;
+    border-radius: 5px;
+    filter: brightness(85%);
+  
+}
+
+.fedebatt{
+    background-color: red;
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    filter: brightness(85%);
+  
+}
